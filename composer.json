@@ -1,0 +1,17 @@
+{
+    "name": "samsung/php_crud_oo",
+    "description": "projeto php orientado a objeto",
+    "type": "project",
+    "license": "MIT",
+    "authors": [{
+        "name": "adenilson",
+        "email": "adenilson99@hotmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "slim/slim": "3.*"
+    },
+    "autoload": {
+        "psr-4": { "App\\": "app/", "Config\\": "config/" }
+    }
+}
